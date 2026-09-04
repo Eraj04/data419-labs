@@ -61,3 +61,14 @@ The project uses pandas, pyarrow, and kagglehub.
 ## Known Limitations
 
 Expected goals data is only available for more recent World Cup matches, so older matches contain missing values for those variables. The FIFA ranking table is from October 2022 rather than containing rankings for every historical World Cup.
+
+## Generated Files
+
+Running `pull_all.py` creates the following files:
+
+- `matches.parquet`
+- `tournaments.parquet`
+- `rankings.parquet`
+
+These files are generated automatically and are excluded from Git.
+
